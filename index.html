@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Wishlist</title>
+</head>
+<body>
+    <div class="main"> <!--allows the header to be styled differently from its contents-->
+        <div class="header"> 
+            <img src="https://cdn-icons-png.flaticon.com/512/9141/9141622.png" class="icon_berries1">
+            <h1> My Christmas Wishlist </h1>        
+            <img src="https://cdn-icons-png.flaticon.com/512/9141/9141622.png" class="icon_berries2">
+            <img src="https://cdn-icons-png.flaticon.com/512/3901/3901663.png" class="mistletoe">
+        </div>
+    </div>
+    
+    <div class="content">
+        
+        <section>
+            <div class="item">
+                <div class="item_title">
+                    <img src="https://dlcdnwebimgs.asus.com/gain/45DB5297-607F-4F96-B318-65007AC3D5EE/w250">
+                    <div id="title-item-1" class="title" data-hover="Grant This Wish"> 
+                        Gaming Phone
+                    </div>
+                </div>
+                
+                <div class="item_details">
+                    <p>
+                        This is <a href="https://rog.asus.com/phones/rog-phone-6-model/" target="_blank" data-hover="Check Item">ROG Phone 6</a> from Asus with a 8 GB RAM and 256 GB storage. It is considered the best gaming phone out there. 
+                    </p>
+                    <p>
+                        I prefer playing Genshin Impact, a role-playing game, through my phone. However, because it occupies a lot of memory, there is not much memory left in my current phone for future patches. My current phone also tends to be laggy. Having a phone with a huge internal memory and adequate RAM will resolve these issues.  
+                    </p>
+                </div>
+                
+                <div id="overlay-item-1" class="overlay">
+                    <button id="button-item-1" class="btn-close">X</button>
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938540.png" class="icon"></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="item">
+                <div class="item_title">
+                    <img src="https://cdn.shopify.com/s/files/1/0183/5769/products/M2-MacBook-2022---_0001s_0011_macbook-air-midnight-open-220615_1024x.png?v=1656571781">
+                    <div id="title-item-2" class="title" data-hover="Grant This Wish"> 
+                        Laptop
+                    </div>
+                </div>
+                <div class="item_details">
+                    <p>
+                        This is <a href="https://www.apple.com/ph/shop/buy-mac/macbook-air/m2-chip" target="_blank" data-hover="Check Item">MacBook Air with M2 chip in Midnight Finish</a> from Apple with an 8-core GPU, 16GB RAM, and 512GB SSD.  
+                    </p>
+                    <p>
+                        Having a reliable laptop is very useful, especially to a software developer. This model has very good technical specifications and an aesthetically pleasing finish.  
+                    </p>
+                </div>
+                <div id="overlay-item-2" class="overlay">
+                    <button id="button-item-2" class="btn-close">X</button>
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938540.png" class="icon"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="item">
+                <div class="item_title">
+                    <img src="https://cdn.shopify.com/s/files/1/0751/7203/products/GX3062_6_FOOTWEAR_Photography_FrontLateralTopView_transparent_1024x1024@2x.png?v=1655334345">
+                    <div id="title-item-3" class="title" data-hover="Grant This Wish"> 
+                        Running Shoes
+                    </div>
+                </div>
+                <div class="item_details">
+                    <p>
+                        This is <a href="https://www.adidas.com.ph/ultraboost-22-shoes/GX5461.html" target="_blank" data-hover="Check Item">Ultraboost 22 in Collegiate Navy</a> from Adidas with an upper that is made from at least 50% of recycled plastic waste. It also has good cushioning and stability. 
+                    </p>
+                    <p>
+                        I walk a lot, so I need an extra pair of durable day-to-day shoes with a simple design and a nice finish.     
+                    </p>
+                </div>
+                <div id="overlay-item-3" class="overlay">
+                    <button id="button-item-3" class="btn-close">X</button>
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3938/3938540.png" class="icon"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <h2><span class="font1">Not So Major </span><span class="font2">Wishlist</span></h2>
+        <div class="display-area">
+            <form id="addWish" class="add-section">
+                <input id="wish" type="text" placeholder="Type Your Wish" autocomplete="off" class="textfield"> <!--setting autocomplete to "off" prevents showing search history in the textfield-->
+                <input type="submit" class="button-add" value="+">
+            </form>
+            <ul id="wishes" class="minor-wishlist">
+            </ul>
+        </div>
+    </div>
+    
+    <figure>
+        <img src="https://cdn-icons-png.flaticon.com/512/6235/6235196.png">
+    </figure>
+    
+    <footer>
+        <p>
+            Make his Christmas merry by fulfilling his wish or sending cash.
+        </p>
+        <p>    
+        Contact <a href="mailto:eclendero@gmail.com">Edeul Paul C. Lendero</a> for inquiries.
+        </p>
+    </footer>
+
+    <script src="exercise.js"></script>
+</body>
+</html>
